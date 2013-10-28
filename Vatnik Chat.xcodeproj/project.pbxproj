@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98CABB72181E89AB001D53E3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CABB71181E89AB001D53E3 /* Cocoa.framework */; };
+		98CABB7C181E89AB001D53E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98CABB7A181E89AB001D53E3 /* InfoPlist.strings */; };
+		98CABB7E181E89AB001D53E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CABB7D181E89AB001D53E3 /* main.m */; };
+		98CABB82181E89AB001D53E3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 98CABB80181E89AB001D53E3 /* Credits.rtf */; };
+		98CABB85181E89AB001D53E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CABB84181E89AB001D53E3 /* AppDelegate.m */; };
+		98CABB88181E89AB001D53E3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98CABB86181E89AB001D53E3 /* MainMenu.xib */; };
+		98CABB8A181E89AB001D53E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98CABB89181E89AB001D53E3 /* Images.xcassets */; };
+		98CABB91181E89AB001D53E3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CABB90181E89AB001D53E3 /* XCTest.framework */; };
+		98CABB92181E89AB001D53E3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CABB71181E89AB001D53E3 /* Cocoa.framework */; };
+		98CABB9A181E89AB001D53E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98CABB98181E89AB001D53E3 /* InfoPlist.strings */; };
+		98CABB9C181E89AB001D53E3 /* Vatnik_ChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CABB9B181E89AB001D53E3 /* Vatnik_ChatTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98CABB93181E89AB001D53E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98CABB66181E89AB001D53E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98CABB6D181E89AB001D53E3;
+			remoteInfo = "Vatnik Chat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98CABB6E181E89AB001D53E3 /* Vatnik Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vatnik Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CABB71181E89AB001D53E3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		98CABB74181E89AB001D53E3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		98CABB75181E89AB001D53E3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		98CABB76181E89AB001D53E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		98CABB79181E89AB001D53E3 /* Vatnik Chat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vatnik Chat-Info.plist"; sourceTree = "<group>"; };
+		98CABB7B181E89AB001D53E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98CABB7D181E89AB001D53E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98CABB7F181E89AB001D53E3 /* Vatnik Chat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vatnik Chat-Prefix.pch"; sourceTree = "<group>"; };
+		98CABB81181E89AB001D53E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		98CABB83181E89AB001D53E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98CABB84181E89AB001D53E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98CABB87181E89AB001D53E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		98CABB89181E89AB001D53E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		98CABB8F181E89AB001D53E3 /* Vatnik ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vatnik ChatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CABB90181E89AB001D53E3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		98CABB97181E89AB001D53E3 /* Vatnik ChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vatnik ChatTests-Info.plist"; sourceTree = "<group>"; };
+		98CABB99181E89AB001D53E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98CABB9B181E89AB001D53E3 /* Vatnik_ChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vatnik_ChatTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98CABB6B181E89AB001D53E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CABB72181E89AB001D53E3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CABB8C181E89AB001D53E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CABB92181E89AB001D53E3 /* Cocoa.framework in Frameworks */,
+				98CABB91181E89AB001D53E3 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98CABB65181E89AB001D53E3 = {
+			isa = PBXGroup;
+			children = (
+				98CABB77181E89AB001D53E3 /* Vatnik Chat */,
+				98CABB95181E89AB001D53E3 /* Vatnik ChatTests */,
+				98CABB70181E89AB001D53E3 /* Frameworks */,
+				98CABB6F181E89AB001D53E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98CABB6F181E89AB001D53E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98CABB6E181E89AB001D53E3 /* Vatnik Chat.app */,
+				98CABB8F181E89AB001D53E3 /* Vatnik ChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98CABB70181E89AB001D53E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98CABB71181E89AB001D53E3 /* Cocoa.framework */,
+				98CABB90181E89AB001D53E3 /* XCTest.framework */,
+				98CABB73181E89AB001D53E3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98CABB73181E89AB001D53E3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98CABB74181E89AB001D53E3 /* AppKit.framework */,
+				98CABB75181E89AB001D53E3 /* CoreData.framework */,
+				98CABB76181E89AB001D53E3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		98CABB77181E89AB001D53E3 /* Vatnik Chat */ = {
+			isa = PBXGroup;
+			children = (
+				98CABB83181E89AB001D53E3 /* AppDelegate.h */,
+				98CABB84181E89AB001D53E3 /* AppDelegate.m */,
+				98CABB86181E89AB001D53E3 /* MainMenu.xib */,
+				98CABB89181E89AB001D53E3 /* Images.xcassets */,
+				98CABB78181E89AB001D53E3 /* Supporting Files */,
+			);
+			path = "Vatnik Chat";
+			sourceTree = "<group>";
+		};
+		98CABB78181E89AB001D53E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98CABB79181E89AB001D53E3 /* Vatnik Chat-Info.plist */,
+				98CABB7A181E89AB001D53E3 /* InfoPlist.strings */,
+				98CABB7D181E89AB001D53E3 /* main.m */,
+				98CABB7F181E89AB001D53E3 /* Vatnik Chat-Prefix.pch */,
+				98CABB80181E89AB001D53E3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98CABB95181E89AB001D53E3 /* Vatnik ChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				98CABB9B181E89AB001D53E3 /* Vatnik_ChatTests.m */,
+				98CABB96181E89AB001D53E3 /* Supporting Files */,
+			);
+			path = "Vatnik ChatTests";
+			sourceTree = "<group>";
+		};
+		98CABB96181E89AB001D53E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98CABB97181E89AB001D53E3 /* Vatnik ChatTests-Info.plist */,
+				98CABB98181E89AB001D53E3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98CABB6D181E89AB001D53E3 /* Vatnik Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98CABB9F181E89AB001D53E3 /* Build configuration list for PBXNativeTarget "Vatnik Chat" */;
+			buildPhases = (
+				98CABB6A181E89AB001D53E3 /* Sources */,
+				98CABB6B181E89AB001D53E3 /* Frameworks */,
+				98CABB6C181E89AB001D53E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vatnik Chat";
+			productName = "Vatnik Chat";
+			productReference = 98CABB6E181E89AB001D53E3 /* Vatnik Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98CABB8E181E89AB001D53E3 /* Vatnik ChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98CABBA2181E89AB001D53E3 /* Build configuration list for PBXNativeTarget "Vatnik ChatTests" */;
+			buildPhases = (
+				98CABB8B181E89AB001D53E3 /* Sources */,
+				98CABB8C181E89AB001D53E3 /* Frameworks */,
+				98CABB8D181E89AB001D53E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98CABB94181E89AB001D53E3 /* PBXTargetDependency */,
+			);
+			name = "Vatnik ChatTests";
+			productName = "Vatnik ChatTests";
+			productReference = 98CABB8F181E89AB001D53E3 /* Vatnik ChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98CABB66181E89AB001D53E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sasha Ponomarev";
+				TargetAttributes = {
+					98CABB8E181E89AB001D53E3 = {
+						TestTargetID = 98CABB6D181E89AB001D53E3;
+					};
+				};
+			};
+			buildConfigurationList = 98CABB69181E89AB001D53E3 /* Build configuration list for PBXProject "Vatnik Chat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98CABB65181E89AB001D53E3;
+			productRefGroup = 98CABB6F181E89AB001D53E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98CABB6D181E89AB001D53E3 /* Vatnik Chat */,
+				98CABB8E181E89AB001D53E3 /* Vatnik ChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98CABB6C181E89AB001D53E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CABB7C181E89AB001D53E3 /* InfoPlist.strings in Resources */,
+				98CABB8A181E89AB001D53E3 /* Images.xcassets in Resources */,
+				98CABB82181E89AB001D53E3 /* Credits.rtf in Resources */,
+				98CABB88181E89AB001D53E3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CABB8D181E89AB001D53E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CABB9A181E89AB001D53E3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98CABB6A181E89AB001D53E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CABB85181E89AB001D53E3 /* AppDelegate.m in Sources */,
+				98CABB7E181E89AB001D53E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CABB8B181E89AB001D53E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CABB9C181E89AB001D53E3 /* Vatnik_ChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98CABB94181E89AB001D53E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98CABB6D181E89AB001D53E3 /* Vatnik Chat */;
+			targetProxy = 98CABB93181E89AB001D53E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98CABB7A181E89AB001D53E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98CABB7B181E89AB001D53E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		98CABB80181E89AB001D53E3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98CABB81181E89AB001D53E3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		98CABB86181E89AB001D53E3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98CABB87181E89AB001D53E3 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		98CABB98181E89AB001D53E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98CABB99181E89AB001D53E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98CABB9D181E89AB001D53E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		98CABB9E181E89AB001D53E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		98CABBA0181E89AB001D53E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vatnik Chat/Vatnik Chat-Prefix.pch";
+				INFOPLIST_FILE = "Vatnik Chat/Vatnik Chat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		98CABBA1181E89AB001D53E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vatnik Chat/Vatnik Chat-Prefix.pch";
+				INFOPLIST_FILE = "Vatnik Chat/Vatnik Chat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		98CABBA3181E89AB001D53E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Vatnik Chat.app/Contents/MacOS/Vatnik Chat";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vatnik Chat/Vatnik Chat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Vatnik ChatTests/Vatnik ChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		98CABBA4181E89AB001D53E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Vatnik Chat.app/Contents/MacOS/Vatnik Chat";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vatnik Chat/Vatnik Chat-Prefix.pch";
+				INFOPLIST_FILE = "Vatnik ChatTests/Vatnik ChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98CABB69181E89AB001D53E3 /* Build configuration list for PBXProject "Vatnik Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CABB9D181E89AB001D53E3 /* Debug */,
+				98CABB9E181E89AB001D53E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98CABB9F181E89AB001D53E3 /* Build configuration list for PBXNativeTarget "Vatnik Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CABBA0181E89AB001D53E3 /* Debug */,
+				98CABBA1181E89AB001D53E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		98CABBA2181E89AB001D53E3 /* Build configuration list for PBXNativeTarget "Vatnik ChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CABBA3181E89AB001D53E3 /* Debug */,
+				98CABBA4181E89AB001D53E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98CABB66181E89AB001D53E3 /* Project object */;
+}
