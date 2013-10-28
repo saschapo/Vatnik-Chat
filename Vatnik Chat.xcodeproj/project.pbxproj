@@ -18,6 +18,7 @@
 		98CABB92181E89AB001D53E3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CABB71181E89AB001D53E3 /* Cocoa.framework */; };
 		98CABB9A181E89AB001D53E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98CABB98181E89AB001D53E3 /* InfoPlist.strings */; };
 		98CABB9C181E89AB001D53E3 /* Vatnik_ChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CABB9B181E89AB001D53E3 /* Vatnik_ChatTests.m */; };
+		98CABBAA181E9028001D53E3 /* tableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CABBA9181E9028001D53E3 /* tableController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		98CABB97181E89AB001D53E3 /* Vatnik ChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vatnik ChatTests-Info.plist"; sourceTree = "<group>"; };
 		98CABB99181E89AB001D53E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		98CABB9B181E89AB001D53E3 /* Vatnik_ChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vatnik_ChatTests.m; sourceTree = "<group>"; };
+		98CABBA8181E9028001D53E3 /* tableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tableController.h; path = ../tableController.h; sourceTree = "<group>"; };
+		98CABBA9181E9028001D53E3 /* tableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = tableController.m; path = ../tableController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 		98CABB77181E89AB001D53E3 /* Vatnik Chat */ = {
 			isa = PBXGroup;
 			children = (
+				98CABBA8181E9028001D53E3 /* tableController.h */,
+				98CABBA9181E9028001D53E3 /* tableController.m */,
 				98CABB83181E89AB001D53E3 /* AppDelegate.h */,
 				98CABB84181E89AB001D53E3 /* AppDelegate.m */,
 				98CABB86181E89AB001D53E3 /* MainMenu.xib */,
@@ -252,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98CABBAA181E9028001D53E3 /* tableController.m in Sources */,
 				98CABB85181E89AB001D53E3 /* AppDelegate.m in Sources */,
 				98CABB7E181E89AB001D53E3 /* main.m in Sources */,
 			);
